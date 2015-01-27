@@ -13,6 +13,7 @@
 		662858E01A77430400BBAE13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662858DF1A77430400BBAE13 /* Images.xcassets */; };
 		662858E31A77430400BBAE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662858E11A77430400BBAE13 /* Main.storyboard */; };
 		662858EF1A77430400BBAE13 /* LocalSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662858EE1A77430400BBAE13 /* LocalSharingTests.m */; };
+		662858FA1A77978200BBAE13 /* NetworkCalls.m in Sources */ = {isa = PBXBuildFile; fileRef = 662858F91A77978200BBAE13 /* NetworkCalls.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		662858E81A77430400BBAE13 /* LocalSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662858ED1A77430400BBAE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662858EE1A77430400BBAE13 /* LocalSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalSharingTests.m; sourceTree = "<group>"; };
+		662858F81A77978200BBAE13 /* NetworkCalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCalls.h; sourceTree = "<group>"; };
+		662858F91A77978200BBAE13 /* NetworkCalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCalls.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				662858D81A77430400BBAE13 /* AppDelegate.m */,
 				662858DC1A77430400BBAE13 /* ViewController.h */,
 				662858DD1A77430400BBAE13 /* ViewController.m */,
+				662858F81A77978200BBAE13 /* NetworkCalls.h */,
+				662858F91A77978200BBAE13 /* NetworkCalls.m */,
 				662858DF1A77430400BBAE13 /* Images.xcassets */,
 				662858E11A77430400BBAE13 /* Main.storyboard */,
 				662858D51A77430400BBAE13 /* Supporting Files */,
@@ -217,6 +222,7 @@
 			files = (
 				662858DE1A77430400BBAE13 /* ViewController.m in Sources */,
 				662858DB1A77430400BBAE13 /* main.m in Sources */,
+				662858FA1A77978200BBAE13 /* NetworkCalls.m in Sources */,
 				662858D91A77430400BBAE13 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
